@@ -1,3 +1,42 @@
-body h1{
-    color: red;
+body{
+    background-color:  #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin: 50px 140px 130px 140px;
+    border-radius: 30px;
+    align-items: center;
+}
+.head{
+    width: 531px;
+    height: 424px;
+    margin-left: 50px;  
+}
+.head h1{
+    font-size:50px;
+    text-align: left;
+}
+.head p{
+    font-size: 20px;
+    text-align: left;
+    width: 600px; 
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.head a{
+    color: #FFFFFF;
+    border: 1px solid red;
+    padding: 5px;
+    background-color: red;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.head-img{
+    width:40%;
 }
